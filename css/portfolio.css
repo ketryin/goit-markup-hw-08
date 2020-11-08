@@ -112,6 +112,7 @@ img {
 }
 
 .logo-link {
+  margin-right: 95px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -123,12 +124,6 @@ img {
 
 .logo-accent-color {
   color: #2196f3;
-}
-
-@media screen and (min-width: 1200px) {
-  .logo-link {
-    margin-right: 95px;
-  }
 }
 
 .social-list {
