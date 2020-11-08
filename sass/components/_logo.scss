@@ -1,5 +1,4 @@
 .logo-link {
-  margin-right: 95px;
   font-family: $logo-font;
   font-style: normal;
   font-weight: 700;
@@ -10,4 +9,9 @@
 }
 .logo-accent-color {
   color: $accent-color;
+}
+@media screen and (min-width: 1200px) {
+  .logo-link {
+    margin-right: 95px;
+  }
 }
