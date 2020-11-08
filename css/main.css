@@ -45,9 +45,6 @@ img {
     width: 480px;
     margin: 0 auto;
   }
-  .clients .container .list:nth-child(2n) {
-    margin-right: -30px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -880,6 +877,7 @@ img {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
+  margin-right: -30px;
 }
 
 .clients-list-item {
@@ -931,6 +929,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .clients-list {
+    margin-right: 0;
+  }
   .clients-list-item {
     width: calc((100% - 4 * 15px) / 3);
   }

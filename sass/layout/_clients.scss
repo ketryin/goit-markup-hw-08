@@ -6,6 +6,7 @@
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
   }
   &-list-item {
     display: flex;
@@ -48,6 +49,9 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .clients-list {
+    margin-right: 0;
+  }
   .clients-list-item {
     width: calc((100% - 4 * 15px) / 3);
   }
