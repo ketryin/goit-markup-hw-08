@@ -17,6 +17,10 @@
   padding-left: 14px;
   margin-bottom: 30px;
 }
+.header-modal-form {
+  text-align: center;
+  margin-bottom: 12px;
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -24,7 +28,7 @@
   transform: translate(-50%, -50%) scale(1);
   padding: 40px;
   max-width: 450px;
-  max-height: 609px;
+  max-height: 610px;
   background-color: #fff;
   border: 0px none rgba(255, 255, 255, 0.1);
   transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1) 500ms;
@@ -130,4 +134,10 @@
 
 .check-policy-link {
   color: $accent-color;
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
