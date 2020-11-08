@@ -6,15 +6,16 @@
   .container {
     width: 480px;
     margin: 0 auto;
+    .clients & .list:nth-child(2n) {
+      margin-right: -30px;
+    }
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    .footer & .footer-tablet-conteiner {
-      display: flex;
-    }
+
     .our-advantages & .list {
       display: flex;
       flex-wrap: wrap;
@@ -25,6 +26,9 @@
     .about-us & .about-us-list {
       display: flex;
       flex-wrap: wrap;
+    }
+    .clients & .list:nth-child(2n) {
+      margin-right: 0;
     }
   }
 }
