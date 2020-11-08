@@ -1,7 +1,7 @@
 .button-list {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
 
   &-item:not(:last-child) {
     margin-right: 8px;
@@ -9,6 +9,8 @@
 }
 
 .portfolio-button {
+  margin-bottom: 15px;
+
   padding: 6px 22px;
   border-radius: 4px;
   border: 0;
@@ -26,5 +28,21 @@
   &:focus {
     color: $description-dark-theme-color;
     background-color: $accent-color;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .button-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .portfolio-button {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-list {
+    margin-bottom: 50px;
   }
 }
