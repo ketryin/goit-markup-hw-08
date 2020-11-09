@@ -55,6 +55,7 @@
     height: 393px;
     &.is-open {
       display: block;
+      z-index: 2;
     }
   }
   .nav-list {

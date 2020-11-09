@@ -467,6 +467,7 @@ img {
   }
   .menu-container.is-open {
     display: block;
+    z-index: 2;
   }
   .nav-list {
     text-align: center;
