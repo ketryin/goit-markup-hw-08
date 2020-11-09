@@ -59,8 +59,12 @@
     &-list-item {
       padding-bottom: 30px;
     }
+    &-list-item:nth-child(2n + 1) {
+      margin-right: 0px;
+    }
     &-list-item:not(:last-child) {
       margin-bottom: 0;
+      margin-right: 30px;
     }
   }
 }
